@@ -62,3 +62,21 @@ div{
 	text-align: center;
 	padding-top: 10px;
 }
+.sr-only{
+	clip: auto;
+	overflow: visible;
+	position: relative;
+	width: 27%;
+	display: inline-block;
+	text-align: right;
+}
+.form-control{
+	width: 70%;
+	margin:3px 0px;
+	display: inline-block;
+}
+.btn-default{
+	margin: 0 auto;
+	display: block;
+	clear: both;
+}
