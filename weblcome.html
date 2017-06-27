@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" href="../bootstrap/css/bootstrap.css" type="text/css">
 <link rel="stylesheet" href="welcome.css" type="text/css">
+<script src="../jQuery/jquery.js"></script>
+<script src="../bootstrap/js/bootstrap.js"></script>
 <script src="welcome.js"></script>
 <head>
 <meta charset="UTF-8">
@@ -10,13 +13,21 @@
    <div class="body">
       <div class="header">
          <div class="title">
-         	<p class="welcome">WELCOME COME TO MY HOME</p>
+         	<p class="welcome">WELCOME TO MY HOME</p>
          </div> 
          <div class="imgDisplay"></div> 
       </div>
       <div class="middle_left">
       </div>
       <div class="middle_right">
+         <fieldset>
+         	<legend>登录信息</legend>
+         	<label class="sr-only">用户名:</label>
+         	<input type="text" name="username" class="form-control" placeholder="请输入您的用户名"/>
+         	<label class="sr-only">密码:</label>
+         	<input type="password" name="password" class="form-control" placeholder="请输入您的密码"/>
+         	<button class="btn btn-default">登录</button>
+         </fieldset>
       </div>
       <div class="middle">
       </div>
